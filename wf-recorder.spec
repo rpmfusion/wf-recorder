@@ -1,8 +1,8 @@
-# -*-Mode: rpm-spec-mode; -*-
+# -*-Mode: rpm-spec -*-
 
 Name:     wf-recorder
-Version:  0.2
-Release:  3%{?dist}
+Version:  0.2.1
+Release:  1%{?dist}
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
 License:  MIT
 URL:      https://github.com/ammen99/wf-recorder
@@ -47,10 +47,13 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
+* Sat May 09 2020 Bob Hepple <bob.hepple@gmail.com> - 0.2.1-1
+- new release
+
 * Mon Apr 06 2020 Bob Hepple <bob.hepple@gmail.com> - 0.2-3
 - fixed release tag
 
-* Wed Feb 25 2020 Bob Hepple <bob.hepple@gmail.com> - 0.2-2
+* Tue Feb 25 2020 Bob Hepple <bob.hepple@gmail.com> - 0.2-2
 - fix ppc64le compile error ref. https://bugzilla.rpmfusion.org/show_bug.cgi?id=5527
 
 * Tue Feb 18 2020 Bob Hepple <bob.hepple@gmail.com> - 0.2-1
