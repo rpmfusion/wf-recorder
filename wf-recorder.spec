@@ -2,7 +2,7 @@
 
 Name:     wf-recorder
 Version:  0.2.1
-Release:  4%{?dist}
+Release:  5%{?dist}
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
 License:  MIT
 URL:      https://github.com/ammen99/wf-recorder
@@ -47,6 +47,9 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
+* Tue Aug 03 2021 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 0.2.1-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_35_Mass_Rebuild
+
 * Thu Feb 04 2021 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 0.2.1-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
 
