@@ -11,7 +11,7 @@ Version:  0.2.2
 %forgemeta
 
 Name:     wf-recorder
-Release:  0.1%{?dist}
+Release:  0.1%{distprefix}%{?dist}
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
 License:  MIT
 URL:      %{forgeurl}
@@ -56,7 +56,7 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
-* Sun Feb 06 2022 Leigh Scott <leigh123linux@gmail.com> - 0.2.2-0.1
+* Sun Feb 06 2022 Leigh Scott <leigh123linux@gmail.com> - 0.2.2-0.1.20220129git9b9b471
 - Update to git snapshot
 
 * Tue Aug 03 2021 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 0.2.1-5
