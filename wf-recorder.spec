@@ -5,14 +5,13 @@ Version:  0.2.2
 %global   forgeurl https://github.com/ammen99/wf-recorder
 %if %{?git}
 %global   commit 9b9b4712329698a2526a6f909a2e64c035340157
-%global   shortcommit %(c=%{commit}; echo ${c:0:7})
 %global   date 20220129
 %endif
 %forgemeta
 
 Name:     wf-recorder
-Release:  0.1%{distprefix}%{?dist}
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
+Release:  0.1%{?dist}
 License:  MIT
 URL:      %{forgeurl}
 Source0:  %{forgesource}
