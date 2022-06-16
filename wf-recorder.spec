@@ -1,7 +1,7 @@
 # -*-Mode: rpm-spec -*-
 # Use 0 for release and 1 for git
-%global   git 1
-Version:  0.2.2
+%global   git 0
+Version:  0.3.0
 %global   forgeurl https://github.com/ammen99/wf-recorder
 %if %{?git}
 %global   commit 9b9b4712329698a2526a6f909a2e64c035340157
@@ -11,7 +11,7 @@ Version:  0.2.2
 
 Name:     wf-recorder
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
-Release:  0.1%{?dist}
+Release:  1%{?dist}
 License:  MIT
 URL:      %{forgeurl}
 Source0:  %{forgesource}
@@ -55,6 +55,9 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
+* Thu Jun 16 2022 Bob Hepple <bob.hepple@gmail.com> - 0.3.0-1
+- new version
+
 * Sun Feb 06 2022 Leigh Scott <leigh123linux@gmail.com> - 0.2.2-0.1.20220129git9b9b471
 - Update to git snapshot
 
