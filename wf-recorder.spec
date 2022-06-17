@@ -11,12 +11,10 @@ Version:  0.3.0
 
 Name:     wf-recorder
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
-Release:  2%{?dist}
+Release:  1%{?dist}
 License:  MIT
 URL:      %{forgeurl}
 Source0:  %{forgesource}
-
-ExcludeArch:    aarch64 ppc64le
 
 %ifarch ppc64le
 # fix compilation on ppc64le (gcc#58241)
@@ -57,9 +55,6 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
-* Fri Jun 17 2022 Bob Hepple <bob.hepple@gmail.com> - 0.3.0-2
-- exclude failing arch's - problems are at the build system end - missing packages
-
 * Thu Jun 16 2022 Bob Hepple <bob.hepple@gmail.com> - 0.3.0-1
 - new version
 
