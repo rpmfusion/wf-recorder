@@ -11,7 +11,7 @@ Version:  0.3.0
 
 Name:     wf-recorder
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
-Release:  1%{?dist}
+Release:  3%{?dist}
 License:  MIT
 URL:      %{forgeurl}
 Source0:  %{forgesource}
@@ -55,6 +55,9 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
+* Fri Jun 17 2022 Nicolas Chauvet <kwizart@gmail.com> - 0.3.0-3
+- rebuilt
+
 * Thu Jun 16 2022 Bob Hepple <bob.hepple@gmail.com> - 0.3.0-1
 - new version
 
