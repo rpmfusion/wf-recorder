@@ -11,7 +11,7 @@ Version:  0.3.0
 
 Name:     wf-recorder
 Summary:  Screen recorder for wlroots-based compositors eg swaywm
-Release:  3%{?dist}
+Release:  4%{?dist}
 License:  MIT
 URL:      %{forgeurl}
 Source0:  %{forgesource}
@@ -55,6 +55,10 @@ wayland-protocols.
 %license LICENSE
 
 %changelog
+* Mon Aug 08 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.3.0-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild and ffmpeg
+  5.1
+
 * Fri Jun 17 2022 Nicolas Chauvet <kwizart@gmail.com> - 0.3.0-3
 - rebuilt
 
